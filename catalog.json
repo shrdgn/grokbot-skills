@@ -1,0 +1,1239 @@
+{
+  "name": "Grok Bot Skills",
+  "description": "A curated library of reusable Grok Bot skill recipes.",
+  "skill_format": [
+    "Inputs",
+    "Steps",
+    "Decision rules",
+    "Definition of done",
+    "Safety & approvals",
+    "Suggested routine"
+  ],
+  "total": 74,
+  "categories": [
+    {
+      "slug": "general",
+      "name": "General",
+      "count": 6
+    },
+    {
+      "slug": "sales",
+      "name": "Sales",
+      "count": 10
+    },
+    {
+      "slug": "marketing",
+      "name": "Marketing",
+      "count": 13
+    },
+    {
+      "slug": "customer-success-support",
+      "name": "Customer Success & Support",
+      "count": 4
+    },
+    {
+      "slug": "recruiting-people",
+      "name": "Recruiting & People",
+      "count": 4
+    },
+    {
+      "slug": "operations-finance",
+      "name": "Operations & Finance",
+      "count": 5
+    },
+    {
+      "slug": "product",
+      "name": "Product",
+      "count": 5
+    },
+    {
+      "slug": "engineering",
+      "name": "Engineering",
+      "count": 5
+    },
+    {
+      "slug": "life-leverage",
+      "name": "Life & Leverage",
+      "count": 4
+    },
+    {
+      "slug": "creative-content",
+      "name": "Creative & Content",
+      "count": 8
+    },
+    {
+      "slug": "research-intelligence",
+      "name": "Research & Intelligence",
+      "count": 4
+    },
+    {
+      "slug": "data-analytics",
+      "name": "Data & Analytics",
+      "count": 6
+    }
+  ],
+  "skills": [
+    {
+      "name": "Chief of Staff",
+      "slug": "chief-of-staff",
+      "category": "General",
+      "category_slug": "general",
+      "description": "Your always-on assistant. Scans Slack, email, calendar, and meeting notes and delivers a succinct read-out of what's new and what maps to your priorities — each with a source, why it matters, and what to do.",
+      "connectors": [
+        "Slack",
+        "Gmail",
+        "Google Calendar",
+        "Notion",
+        "Google Drive"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily 7:30 AM, plus on-demand",
+      "path": "skills/general/chief-of-staff/SKILL.md"
+    },
+    {
+      "name": "Daily Briefing Writer",
+      "slug": "daily-briefing-writer",
+      "category": "General",
+      "category_slug": "general",
+      "description": "Start the day with high-quality inputs instead of noise. Delivers a tight daily brief of only the stories that matter to you.",
+      "connectors": [
+        "Web/News",
+        "X",
+        "RSS",
+        "Slack or Gmail (delivery)"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily 6:30 AM",
+      "path": "skills/general/daily-briefing-writer/SKILL.md"
+    },
+    {
+      "name": "Executive Assistant",
+      "slug": "executive-assistant",
+      "category": "General",
+      "category_slug": "general",
+      "description": "Stay oriented without living in channels. Delivers a morning briefing plus an automatic catch-up summary whenever you join a new room, so you're never lost in a thread you just entered.",
+      "connectors": [
+        "Slack",
+        "Microsoft Teams",
+        "Google Calendar",
+        "Gmail"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily 8:00 AM + on \"joined new channel/thread\"",
+      "path": "skills/general/executive-assistant/SKILL.md"
+    },
+    {
+      "name": "Inbox Manager",
+      "slug": "inbox-manager",
+      "category": "General",
+      "category_slug": "general",
+      "description": "Keep email usable. Triages your inbox into clear categories, surfaces urgent and blocked threads, and drafts replies and cleanup — every send stays behind your approval.",
+      "connectors": [
+        "Gmail"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Every 2 hours during work hours",
+      "path": "skills/general/inbox-manager/SKILL.md"
+    },
+    {
+      "name": "Presentation Designer",
+      "slug": "presentation-designer",
+      "category": "General",
+      "category_slug": "general",
+      "description": "Build on-brand decks without starting from a blank slide. Uses your master template and brand system and delivers an editable link ready to refine and present.",
+      "connectors": [
+        "Google Slides or PowerPoint",
+        "Google Drive",
+        "brand assets"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand",
+      "path": "skills/general/presentation-designer/SKILL.md"
+    },
+    {
+      "name": "Status Report Writer",
+      "slug": "status-report-writer",
+      "category": "General",
+      "category_slug": "general",
+      "description": "Own the to-do so nothing slips. Pulls open action items from docs, meetings, and Slack into one living list and a morning digest.",
+      "connectors": [
+        "Slack",
+        "Google Drive",
+        "Notion",
+        "meeting-notes source"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily 8:00 AM",
+      "path": "skills/general/status-report-writer/SKILL.md"
+    },
+    {
+      "name": "Account Research Specialist",
+      "slug": "account-research-specialist",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Tier accounts before you touch them. Pulls Salesforce + live signals, scores fit and warmth, and builds a shareable research pack per account.",
+      "connectors": [
+        "Salesforce",
+        "Web",
+        "LinkedIn",
+        "News",
+        "X"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand + weekly refresh",
+      "path": "skills/sales/account-research-specialist/SKILL.md"
+    },
+    {
+      "name": "CRM Operations Manager",
+      "slug": "crm-operations-manager",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Keep the pipeline clean. Handles CRM and org-chart hygiene before and after meetings so records stay current without a manual pass.",
+      "connectors": [
+        "Salesforce",
+        "Google Calendar",
+        "Gmail",
+        "meeting-notes source"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Before and after each meeting",
+      "path": "skills/sales/crm-operations-manager/SKILL.md"
+    },
+    {
+      "name": "Deal Desk Coordinator",
+      "slug": "deal-desk-coordinator",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Draft contextual internal deal notes from past emails, Salesforce, and calls, then submit in Salesforce once you approve.",
+      "connectors": [
+        "Salesforce",
+        "Gmail",
+        "Gong",
+        "meeting-notes source"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On deal-stage change or on demand",
+      "path": "skills/sales/deal-desk-coordinator/SKILL.md"
+    },
+    {
+      "name": "Deck Updater",
+      "slug": "deck-updater",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Leave the room with the slide already moving. Updates your deck from discovery notes mid-call or right after, with next steps baked in.",
+      "connectors": [
+        "Google Slides or PowerPoint",
+        "meeting-notes source",
+        "Google Drive"
+      ],
+      "approval_required": false,
+      "suggested_routine": "During/after discovery calls",
+      "path": "skills/sales/deck-updater/SKILL.md"
+    },
+    {
+      "name": "Meeting Prep Buddy",
+      "slug": "meeting-prep-buddy",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Walk into every meeting ready. Builds prep packs from calendar, notes, CRM, Gong, and Slack — who's in the room, last touch, open threads, and a suggested agenda.",
+      "connectors": [
+        "Google Calendar",
+        "Salesforce",
+        "Gong",
+        "Slack",
+        "Gmail"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Nightly for next-day meetings + 30 min before each",
+      "path": "skills/sales/meeting-prep-buddy/SKILL.md"
+    },
+    {
+      "name": "Pipeline Analyst",
+      "slug": "pipeline-analyst",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Walk into pipe with a clean view. Scrubs Salesforce + sheets, flags stalls and commit risk, and drops a Monday scoreboard.",
+      "connectors": [
+        "Salesforce",
+        "Google Sheets",
+        "Slack"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Monday 7:00 AM + before pipeline reviews",
+      "path": "skills/sales/pipeline-analyst/SKILL.md"
+    },
+    {
+      "name": "Prospecting Plan Builder",
+      "slug": "prospecting-plan-builder",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Build the week's book of work. Seeds contacts, enriches email/mobile, and writes a ready-to-work tracker so outbound starts from a list.",
+      "connectors": [
+        "Salesforce",
+        "LinkedIn",
+        "enrichment tool",
+        "Google Sheets"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Weekly, Sunday evening or Monday 6:00 AM",
+      "path": "skills/sales/prospecting-plan-builder/SKILL.md"
+    },
+    {
+      "name": "Renewal Desk Operator",
+      "slug": "renewal-desk-operator",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Walk into every renewal already briefed. Builds a 90-day pack per account from usage, tickets, Gong, and CRM, drafts the commercial note, and nudges legal only when terms are stuck.",
+      "connectors": [
+        "Salesforce",
+        "product usage/analytics",
+        "support/tickets",
+        "Gong"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Daily scan; 90 days before each renewal",
+      "path": "skills/sales/renewal-desk-operator/SKILL.md"
+    },
+    {
+      "name": "Sales Call Coach",
+      "slug": "sales-call-coach",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Leave every call with homework. Reviews Gong calls and leaves timestamped coaching on discovery, objections, and executive presence, plus a call score.",
+      "connectors": [
+        "Gong",
+        "Slack or Gmail (delivery)"
+      ],
+      "approval_required": false,
+      "suggested_routine": "After each recorded call",
+      "path": "skills/sales/sales-call-coach/SKILL.md"
+    },
+    {
+      "name": "Sales Outbound",
+      "slug": "sales-outbound",
+      "category": "Sales",
+      "category_slug": "sales",
+      "description": "Hand off research and outbound. Researches accounts overnight, scores contacts with intent, drafts email and LinkedIn in your voice, and leaves a review list for you to approve.",
+      "connectors": [
+        "Salesforce",
+        "LinkedIn",
+        "enrichment tool",
+        "Gmail",
+        "sequencer"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Nightly; review each morning",
+      "path": "skills/sales/sales-outbound/SKILL.md"
+    },
+    {
+      "name": "Community Operations Manager",
+      "slug": "community-operations-manager",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Keep the ambassador loop moving. Screens apps, triages DMs across channels, and drafts nurture on a cadence so community isn't a full-time chase.",
+      "connectors": [
+        "Slack",
+        "Discord",
+        "X",
+        "Gmail",
+        "application form/sheet"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Twice daily",
+      "path": "skills/marketing/community-operations-manager/SKILL.md"
+    },
+    {
+      "name": "Compelling Events Monitor",
+      "slug": "compelling-events-monitor",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Engage when there's a real reason. Watches leadership posts for awards, launches, and hiring signals, then sends a short digest of posts to engage with — comments or quote reposts in your voice.",
+      "connectors": [
+        "X",
+        "LinkedIn",
+        "News"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Daily 8:00 AM",
+      "path": "skills/marketing/compelling-events-monitor/SKILL.md"
+    },
+    {
+      "name": "Competitive Intelligence Analyst",
+      "slug": "competitive-intelligence-analyst",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "See the landscape shift in meaningful ways. Monitors overnight for new launches and audits your site for fatigued creatives and stale messaging. Surfaces only important shifts that gain traction and suggests changes.",
+      "connectors": [
+        "Web",
+        "competitor sites/changelogs",
+        "News",
+        "X",
+        "your site/CMS"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Nightly",
+      "path": "skills/marketing/competitive-intelligence-analyst/SKILL.md"
+    },
+    {
+      "name": "Event Guest Screener",
+      "slug": "event-guest-screener",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Fill the room with the right people. Scores event applicants against your ICP and batch-approves strong fits in the invite tool.",
+      "connectors": [
+        "Event/invite tool",
+        "enrichment tool",
+        "Google Sheets"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On new applications + daily batch",
+      "path": "skills/marketing/event-guest-screener/SKILL.md"
+    },
+    {
+      "name": "Internal Communications Manager",
+      "slug": "internal-communications-manager",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Draft clear, on-voice copy from your real context, matched to each audience and channel. Review-only so it never sends on its own.",
+      "connectors": [
+        "Slack",
+        "Gmail",
+        "Notion",
+        "Google Drive"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On demand",
+      "path": "skills/marketing/internal-communications-manager/SKILL.md"
+    },
+    {
+      "name": "LinkedIn Campaign Manager",
+      "slug": "linkedin-campaign-manager",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Own lead-gen funnel consistency across ads, forms, follow-up, and UTMs. Drafts campaigns for approval and keeps every offer and handoff clean.",
+      "connectors": [
+        "LinkedIn Ads",
+        "CRM",
+        "Google Sheets",
+        "UTM/landing tooling"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Weekly build + ongoing hygiene checks",
+      "path": "skills/marketing/linkedin-campaign-manager/SKILL.md"
+    },
+    {
+      "name": "Marketing Calendar Owner",
+      "slug": "marketing-calendar-owner",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Keep regional and global content, launch, and events calendars in sync. Pulls from Notion and keeps webinars and campaigns current without a weekly chase.",
+      "connectors": [
+        "Notion",
+        "Google Calendar",
+        "Google Sheets",
+        "Slack"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily sync + weekly digest",
+      "path": "skills/marketing/marketing-calendar-owner/SKILL.md"
+    },
+    {
+      "name": "Merch Fulfillment Operator",
+      "slug": "merch-fulfillment-operator",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Send merch to the right prospects. Runs outreach, watches the redemption form, pings you to approve/reject each submission in chat, and sends your swag vendor a daily order form.",
+      "connectors": [
+        "Gmail",
+        "redemption form/sheet",
+        "Slack",
+        "swag vendor"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Daily",
+      "path": "skills/marketing/merch-fulfillment-operator/SKILL.md"
+    },
+    {
+      "name": "Newsletter Writer",
+      "slug": "newsletter-writer",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Ship monthly marketing and product updates on time. Pulls what's new from launches, wins, and your calendar, writes the issue in your voice, and parks it for review so marketing can edit once and send.",
+      "connectors": [
+        "Notion",
+        "Google Drive",
+        "changelog/launch source",
+        "email platform"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Monthly, a few days before send",
+      "path": "skills/marketing/newsletter-writer/SKILL.md"
+    },
+    {
+      "name": "Paid Media",
+      "slug": "paid-media",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Pulls live channel and campaign data, Slacks a recommended budget reallocation against your monthly plan, and holds for your approval before making adjustments.",
+      "connectors": [
+        "Ad platforms (Google",
+        "Meta",
+        "LinkedIn)",
+        "Google Sheets",
+        "Slack"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Daily 9:00 AM",
+      "path": "skills/marketing/paid-media/SKILL.md"
+    },
+    {
+      "name": "Paid Media Creative Strategist",
+      "slug": "paid-media-creative-strategist",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Spot early creative winners before they're obvious. Writes a sharp why-it-works hypothesis and proposes the next test. No invented metrics.",
+      "connectors": [
+        "Ad platforms",
+        "creative library",
+        "Google Sheets"
+      ],
+      "approval_required": false,
+      "suggested_routine": "2–3× per week",
+      "path": "skills/marketing/paid-media-creative-strategist/SKILL.md"
+    },
+    {
+      "name": "SEO / AEO Auditor",
+      "slug": "seo-aeo-auditor",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Track keyword, technical, AI-prompt, and competitor movement in one place. Surfaces whether you're gaining or losing ground, flags site issues that need a fix, and returns an optimization plan you can act on.",
+      "connectors": [
+        "Search Console",
+        "rank tracker",
+        "crawler",
+        "AI answer engines",
+        "competitor sites"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Weekly + monthly deep audit",
+      "path": "skills/marketing/seo-aeo-auditor/SKILL.md"
+    },
+    {
+      "name": "Social Media Manager",
+      "slug": "social-media-manager",
+      "category": "Marketing",
+      "category_slug": "marketing",
+      "description": "Post in your voice without living in drafts. Studies your real history, drafts when something noteworthy ships, parks posts for you to publish, and keeps the queue moving.",
+      "connectors": [
+        "X",
+        "LinkedIn",
+        "changelog/launch source",
+        "Slack"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Daily + on \"noteworthy event\"",
+      "path": "skills/marketing/social-media-manager/SKILL.md"
+    },
+    {
+      "name": "Account Health",
+      "slug": "account-health",
+      "category": "Customer Success & Support",
+      "category_slug": "customer-success-support",
+      "description": "See risk and expansion before the QBR. Reads usage and signals across your book and turns portfolio noise into a clear watch list.",
+      "connectors": [
+        "Product usage/analytics",
+        "Salesforce",
+        "support/tickets",
+        "Gong"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Weekly Monday + before QBRs",
+      "path": "skills/customer-success-support/account-health/SKILL.md"
+    },
+    {
+      "name": "Account Manager",
+      "slug": "account-manager",
+      "category": "Customer Success & Support",
+      "category_slug": "customer-success-support",
+      "description": "Keep every key account warm without rebuilding context each time. Preps every call from transcripts, notes, CRM, and Slack, drafts follow-ups, and keeps next steps current.",
+      "connectors": [
+        "Salesforce",
+        "Gong",
+        "Slack",
+        "Gmail",
+        "Google Calendar"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Before + after each account call",
+      "path": "skills/customer-success-support/account-manager/SKILL.md"
+    },
+    {
+      "name": "Enablement Fulfillment Specialist",
+      "slug": "enablement-fulfillment-specialist",
+      "category": "Customer Success & Support",
+      "category_slug": "customer-success-support",
+      "description": "Answer \"send me the recordings\" without digging. Finds Zoom assets, builds one-pagers, uploads to Drive, and drafts the reply with links.",
+      "connectors": [
+        "Zoom",
+        "Google Drive",
+        "Gmail",
+        "Slack"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On request (Slack/email trigger)",
+      "path": "skills/customer-success-support/enablement-fulfillment-specialist/SKILL.md"
+    },
+    {
+      "name": "Ticket Triage Specialist",
+      "slug": "ticket-triage-specialist",
+      "category": "Customer Success & Support",
+      "category_slug": "customer-success-support",
+      "description": "Clear the queue without living in it. Watches support on a cadence, drafts replies only, and stays quiet when it's clean.",
+      "connectors": [
+        "Support desk (Zendesk/Intercom/etc.)",
+        "knowledge base",
+        "Slack"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Every 30–60 min during support hours",
+      "path": "skills/customer-success-support/ticket-triage-specialist/SKILL.md"
+    },
+    {
+      "name": "Calendar Coordinator",
+      "slug": "calendar-coordinator",
+      "category": "Recruiting & People",
+      "category_slug": "recruiting-people",
+      "description": "Get people in the same room. Schedules across calendars and chases the holds nobody else has time to chase.",
+      "connectors": [
+        "Google Calendar",
+        "Gmail",
+        "scheduling tool"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On scheduling request + daily chase",
+      "path": "skills/recruiting-people/calendar-coordinator/SKILL.md"
+    },
+    {
+      "name": "Hiring Screener",
+      "slug": "hiring-screener",
+      "category": "Recruiting & People",
+      "category_slug": "recruiting-people",
+      "description": "Interview the strong ones, not the whole pile. Scores applications or work samples against a defined bar and hands off an ATS-ready review.",
+      "connectors": [
+        "ATS",
+        "Google Drive",
+        "Gmail"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On new applications + daily batch",
+      "path": "skills/recruiting-people/hiring-screener/SKILL.md"
+    },
+    {
+      "name": "Onboarding Manager",
+      "slug": "onboarding-manager",
+      "category": "Recruiting & People",
+      "category_slug": "recruiting-people",
+      "description": "Give new hires a path, not a pile of links. Builds the checklist, pulls the right docs, answers day-one questions, and routes each ask to whoever can unblock it.",
+      "connectors": [
+        "Notion",
+        "Google Drive",
+        "Slack",
+        "Gmail",
+        "HRIS"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On new-hire start + first 2 weeks",
+      "path": "skills/recruiting-people/onboarding-manager/SKILL.md"
+    },
+    {
+      "name": "Talent Scout",
+      "slug": "talent-scout",
+      "category": "Recruiting & People",
+      "category_slug": "recruiting-people",
+      "description": "Keep recruiting moving while you sleep. Runs screen-to-offer: sources candidates, drafts outreach in your voice, skips people already in the ATS, and handles scheduling once you approve.",
+      "connectors": [
+        "ATS",
+        "LinkedIn",
+        "Gmail",
+        "Google Calendar"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Nightly sourcing; review each morning",
+      "path": "skills/recruiting-people/talent-scout/SKILL.md"
+    },
+    {
+      "name": "Contract Desk",
+      "slug": "contract-desk",
+      "category": "Operations & Finance",
+      "category_slug": "operations-finance",
+      "description": "See the week of paper at a glance. Summarizes contracts by stage and owner, pulls key terms, and flags blocked reviews.",
+      "connectors": [
+        "CLM/contract tool",
+        "Google Drive",
+        "DocuSign",
+        "Slack"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily 8:00 AM + weekly digest",
+      "path": "skills/operations-finance/contract-desk/SKILL.md"
+    },
+    {
+      "name": "Expense Manager",
+      "slug": "expense-manager",
+      "category": "Operations & Finance",
+      "category_slug": "operations-finance",
+      "description": "Stay on top of the money. Builds the weekly summary from your expense manager and sheets, logs new receipts from email, and nudges owners on missing categories before review.",
+      "connectors": [
+        "Expense tool (Brex/Ramp/etc.)",
+        "Google Sheets",
+        "Gmail",
+        "Slack"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Weekly + on new receipt email",
+      "path": "skills/operations-finance/expense-manager/SKILL.md"
+    },
+    {
+      "name": "Invoice Coordinator",
+      "slug": "invoice-coordinator",
+      "category": "Operations & Finance",
+      "category_slug": "operations-finance",
+      "description": "Stop invoices from sitting. Forwards invoices, matches what it can, tracks vendor actuals, and nudges the right owner when something needs a human.",
+      "connectors": [
+        "Gmail",
+        "AP tool",
+        "Google Sheets",
+        "Slack"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Daily",
+      "path": "skills/operations-finance/invoice-coordinator/SKILL.md"
+    },
+    {
+      "name": "Security Questionnaire Filler",
+      "slug": "security-questionnaire-filler",
+      "category": "Operations & Finance",
+      "category_slug": "operations-finance",
+      "description": "Speed through vendor security portals. Logs into the questionnaire site, pulls answers from your trust center and past RFPs, drafts every field, and parks the submit for you.",
+      "connectors": [
+        "Trust center/knowledge base",
+        "past RFP library",
+        "Google Drive",
+        "browser"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On request",
+      "path": "skills/operations-finance/security-questionnaire-filler/SKILL.md"
+    },
+    {
+      "name": "Vendor Portal Operator",
+      "slug": "vendor-portal-operator",
+      "category": "Operations & Finance",
+      "category_slug": "operations-finance",
+      "description": "Run renewals, seats, and procurement on portals with no clean API. Clicks the same path every week and comes back with exceptions only.",
+      "connectors": [
+        "Browser/computer use",
+        "Google Sheets",
+        "Slack"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Weekly",
+      "path": "skills/operations-finance/vendor-portal-operator/SKILL.md"
+    },
+    {
+      "name": "Beta Adoption Watcher",
+      "slug": "beta-adoption-watcher",
+      "category": "Product",
+      "category_slug": "product",
+      "description": "See who's actually trying the new feature. Monitors usage and surfaces which customers are in, so the team can follow up.",
+      "connectors": [
+        "Product analytics",
+        "Salesforce",
+        "Slack"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily during a beta",
+      "path": "skills/product/beta-adoption-watcher/SKILL.md"
+    },
+    {
+      "name": "Call FAQ Miner",
+      "slug": "call-faq-miner",
+      "category": "Product",
+      "category_slug": "product",
+      "description": "Keep enablement current from real calls. Tracks recurring questions, timestamps answers, and links back to the source recording.",
+      "connectors": [
+        "Gong",
+        "Zoom",
+        "knowledge base",
+        "Google Drive"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Weekly",
+      "path": "skills/product/call-faq-miner/SKILL.md"
+    },
+    {
+      "name": "Docs Auditor",
+      "slug": "docs-auditor",
+      "category": "Product",
+      "category_slug": "product",
+      "description": "Catch docs that are out of date with the product. Diffs help center and internal notes against what shipped last week, flags stale pages, and drafts the rewrite.",
+      "connectors": [
+        "Help center/CMS",
+        "changelog/release notes",
+        "Notion",
+        "Google Drive"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Weekly after release",
+      "path": "skills/product/docs-auditor/SKILL.md"
+    },
+    {
+      "name": "Feature Request Tracker",
+      "slug": "feature-request-tracker",
+      "category": "Product",
+      "category_slug": "product",
+      "description": "Never lose \"who asked for this.\" Mines Slack and calls into a living list tied to customers, so the spec has a real demand trail.",
+      "connectors": [
+        "Slack",
+        "Gong",
+        "Salesforce",
+        "Notion/Linear/Jira"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily",
+      "path": "skills/product/feature-request-tracker/SKILL.md"
+    },
+    {
+      "name": "Product Feedback Analyst",
+      "slug": "product-feedback-analyst",
+      "category": "Product",
+      "category_slug": "product",
+      "description": "Turn scattered product signal into a prioritized view. Collects and clusters feedback from connected sources, weighs evidence and urgency, and drafts routing recommendations for approval.",
+      "connectors": [
+        "Support desk",
+        "Slack",
+        "Gong",
+        "app reviews",
+        "survey tool"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Weekly",
+      "path": "skills/product/product-feedback-analyst/SKILL.md"
+    },
+    {
+      "name": "Bug Reproduction",
+      "slug": "bug-reproduction",
+      "category": "Engineering",
+      "category_slug": "engineering",
+      "description": "Give engineers reports they can trust. Catches the thread, clicks the same path in staging, captures the failure, and drops a repro pack — steps, screenshots, network notes.",
+      "connectors": [
+        "Slack",
+        "browser/computer use",
+        "issue tracker",
+        "staging env"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On bug report",
+      "path": "skills/engineering/bug-reproduction/SKILL.md"
+    },
+    {
+      "name": "Cloud Agent Orchestrator",
+      "slug": "cloud-agent-orchestrator",
+      "category": "Engineering",
+      "category_slug": "engineering",
+      "description": "Keep many cloud agent runs moving without babysitting each one. Kicks off runs, monitors, chases what's stuck, and summarizes the report.",
+      "connectors": [
+        "CI/agent platform",
+        "GitHub",
+        "Slack"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On demand + monitor active runs",
+      "path": "skills/engineering/cloud-agent-orchestrator/SKILL.md"
+    },
+    {
+      "name": "Playtest Operator",
+      "slug": "playtest-operator",
+      "category": "Engineering",
+      "category_slug": "engineering",
+      "description": "Brute-force test the product path when APIs aren't enough. Drives the UI on a computer, captures failures, and returns a tight findings pack.",
+      "connectors": [
+        "Browser/computer use",
+        "staging env",
+        "issue tracker"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand / before release",
+      "path": "skills/engineering/playtest-operator/SKILL.md"
+    },
+    {
+      "name": "Product Performance",
+      "slug": "product-performance",
+      "category": "Engineering",
+      "category_slug": "engineering",
+      "description": "Get a clear view of the metrics that matter. Logs into observability tools, walks the flamegraphs, and comes back with hotspots plus a short writeup with screenshots.",
+      "connectors": [
+        "Observability (Datadog/Grafana/etc.)",
+        "APM",
+        "Slack"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Weekly + on regression alert",
+      "path": "skills/engineering/product-performance/SKILL.md"
+    },
+    {
+      "name": "Prototype Builder",
+      "slug": "prototype-builder",
+      "category": "Engineering",
+      "category_slug": "engineering",
+      "description": "Go from ask to something clickable fast. Writes code on its computer and comes back with a screenshot plus a live URL.",
+      "connectors": [
+        "Computer use",
+        "code sandbox",
+        "hosting/preview",
+        "GitHub"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand",
+      "path": "skills/engineering/prototype-builder/SKILL.md"
+    },
+    {
+      "name": "Apartment Scout",
+      "slug": "apartment-scout",
+      "category": "Life & Leverage",
+      "category_slug": "life-leverage",
+      "description": "Book tours with a shortlist of eligible apartments as soon as they hit the market. Filters listings, emails to book tour times, and applies for the ones you pick.",
+      "connectors": [
+        "Listing sites",
+        "Gmail",
+        "Google Calendar",
+        "browser/computer use"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Daily while searching",
+      "path": "skills/life-leverage/apartment-scout/SKILL.md"
+    },
+    {
+      "name": "Personal Site Builder",
+      "slug": "personal-site-builder",
+      "category": "Life & Leverage",
+      "category_slug": "life-leverage",
+      "description": "Scaffold a personal site from a description, untangle domain issues, and leave you with a live starting point.",
+      "connectors": [
+        "Computer use",
+        "code sandbox",
+        "hosting",
+        "domain/DNS",
+        "GitHub"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On demand",
+      "path": "skills/life-leverage/personal-site-builder/SKILL.md"
+    },
+    {
+      "name": "Subscription Cleaner",
+      "slug": "subscription-cleaner",
+      "category": "Life & Leverage",
+      "category_slug": "life-leverage",
+      "description": "Cut the noise you forgot about. Collates receipt and newsletter mail, suggests what to kill, and unsubscribes what you approve.",
+      "connectors": [
+        "Gmail",
+        "browser/computer use"
+      ],
+      "approval_required": true,
+      "suggested_routine": "Monthly",
+      "path": "skills/life-leverage/subscription-cleaner/SKILL.md"
+    },
+    {
+      "name": "Travel Coordinator",
+      "slug": "travel-coordinator",
+      "category": "Life & Leverage",
+      "category_slug": "life-leverage",
+      "description": "Hold the best option before it expires. Compares flights and hotels to your rules, confirms before booking, and drops itinerary plus calendar.",
+      "connectors": [
+        "Travel sites",
+        "Gmail",
+        "Google Calendar",
+        "browser/computer use"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On trip request",
+      "path": "skills/life-leverage/travel-coordinator/SKILL.md"
+    },
+    {
+      "name": "Brand Voice Keeper",
+      "slug": "brand-voice-keeper",
+      "category": "Creative & Content",
+      "category_slug": "creative-content",
+      "description": "Learn your brand voice once, then rewrite or check any copy against it. Use to keep tone consistent across writers and channels, or to fix off-voice drafts.",
+      "connectors": [
+        "Google Drive",
+        "Notion",
+        "Slack"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand / before publish",
+      "path": "skills/creative-content/brand-voice-keeper/SKILL.md"
+    },
+    {
+      "name": "Content Repurposer",
+      "slug": "content-repurposer",
+      "category": "Creative & Content",
+      "category_slug": "creative-content",
+      "description": "Turn one asset (post, blog, talk, webinar) into a pack of channel-native derivatives — thread, LinkedIn post, newsletter blurb, video script, quote cards. Use to get full mileage from one piece.",
+      "connectors": [
+        "Google Drive",
+        "Notion",
+        "X",
+        "LinkedIn",
+        "image generation"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On new asset publish",
+      "path": "skills/creative-content/content-repurposer/SKILL.md"
+    },
+    {
+      "name": "Hook & Headline Tester",
+      "slug": "hook-and-headline-tester",
+      "category": "Creative & Content",
+      "category_slug": "creative-content",
+      "description": "Generate and rank hooks, headlines, and subject lines against your goal and audience — with a clear rationale for the top picks. Use before you ship copy, not after it underperforms.",
+      "connectors": [
+        "Google Drive",
+        "Notion"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand",
+      "path": "skills/creative-content/hook-and-headline-tester/SKILL.md"
+    },
+    {
+      "name": "Image Concept Generator",
+      "slug": "image-concept-generator",
+      "category": "Creative & Content",
+      "category_slug": "creative-content",
+      "description": "Go from a brief to on-brand image concepts and generation-ready prompts. Use when you need visuals for a post, blog, ad, or deck and want options, not one guess.",
+      "connectors": [
+        "Image generation",
+        "brand assets",
+        "Google Drive"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand",
+      "path": "skills/creative-content/image-concept-generator/SKILL.md"
+    },
+    {
+      "name": "Meme Maker",
+      "slug": "meme-maker",
+      "category": "Creative & Content",
+      "category_slug": "creative-content",
+      "description": "Draft topical, on-brand memes that fit the moment without being cringe. Use when you want reactive social content that lands, cleared before it posts.",
+      "connectors": [
+        "X",
+        "image generation",
+        "brand assets"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On demand / on trend",
+      "path": "skills/creative-content/meme-maker/SKILL.md"
+    },
+    {
+      "name": "Naming & Tagline Brainstormer",
+      "slug": "naming-tagline-brainstormer",
+      "category": "Creative & Content",
+      "category_slug": "creative-content",
+      "description": "Generate and pressure-test names and taglines for products, features, or campaigns — with domain/handle and trademark sanity checks. Use when you need options with a shortlist, not 200 raw ideas.",
+      "connectors": [
+        "Web",
+        "domain/DNS lookup",
+        "X"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand",
+      "path": "skills/creative-content/naming-tagline-brainstormer/SKILL.md"
+    },
+    {
+      "name": "Short Video Script Writer",
+      "slug": "short-video-script-writer",
+      "category": "Creative & Content",
+      "category_slug": "creative-content",
+      "description": "Write scroll-stopping short-form video scripts (Reels/Shorts/TikTok) with a hook, beats, on-screen text, and a CTA. Use when you need a shoot-ready script, not a vague idea.",
+      "connectors": [
+        "Google Drive",
+        "Notion"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand",
+      "path": "skills/creative-content/short-video-script-writer/SKILL.md"
+    },
+    {
+      "name": "Thread Writer",
+      "slug": "thread-writer",
+      "category": "Creative & Content",
+      "category_slug": "creative-content",
+      "description": "Turn a topic, doc, or launch into a well-structured X thread in your voice — strong hook, one idea per post, clean payoff. Use when you want a thread drafted, not a wall of text.",
+      "connectors": [
+        "X",
+        "Google Drive",
+        "Notion"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On demand / on \"noteworthy event\"",
+      "path": "skills/creative-content/thread-writer/SKILL.md"
+    },
+    {
+      "name": "Call & Video Summarizer",
+      "slug": "call-and-video-summarizer",
+      "category": "Research & Intelligence",
+      "category_slug": "research-intelligence",
+      "description": "Turn a recording, transcript, or long video into a tight summary with decisions, action items, and timestamped highlights. Use to capture what happened without rewatching.",
+      "connectors": [
+        "Zoom",
+        "Gong",
+        "YouTube",
+        "Google Drive",
+        "Notion"
+      ],
+      "approval_required": false,
+      "suggested_routine": "After each recording / on demand",
+      "path": "skills/research-intelligence/call-and-video-summarizer/SKILL.md"
+    },
+    {
+      "name": "Deep Research Brief",
+      "slug": "deep-research-brief",
+      "category": "Research & Intelligence",
+      "category_slug": "research-intelligence",
+      "description": "Answer a hard question with a sourced, structured brief — not a wall of links. Use for market/company/topic research where you need a decision-ready synthesis with citations.",
+      "connectors": [
+        "Web",
+        "News",
+        "X",
+        "Google Drive"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand",
+      "path": "skills/research-intelligence/deep-research-brief/SKILL.md"
+    },
+    {
+      "name": "Fact Checker",
+      "slug": "fact-checker",
+      "category": "Research & Intelligence",
+      "category_slug": "research-intelligence",
+      "description": "Verify claims before you publish or act. Use to check a post, draft, stat, or forwarded claim against primary sources and get a verdict with evidence.",
+      "connectors": [
+        "Web",
+        "News",
+        "X"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand / before publish",
+      "path": "skills/research-intelligence/fact-checker/SKILL.md"
+    },
+    {
+      "name": "Trend Radar",
+      "slug": "trend-radar",
+      "category": "Research & Intelligence",
+      "category_slug": "research-intelligence",
+      "description": "Catch what's breaking in your space on X and the web before it's obvious. Use for a real-time digest of emerging trends, narratives, and conversations relevant to you — signal, with sources.",
+      "connectors": [
+        "X",
+        "News",
+        "Web"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily + on demand",
+      "path": "skills/research-intelligence/trend-radar/SKILL.md"
+    },
+    {
+      "name": "Anomaly Watcher",
+      "slug": "anomaly-watcher",
+      "category": "Data & Analytics",
+      "category_slug": "data-analytics",
+      "description": "Catch metric anomalies before they become fire drills. Use to monitor key metrics on a cadence and alert — with likely causes — only when something is genuinely off.",
+      "connectors": [
+        "BigQuery/warehouse",
+        "analytics tool",
+        "Slack"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Daily (or hourly for critical metrics)",
+      "path": "skills/data-analytics/anomaly-watcher/SKILL.md"
+    },
+    {
+      "name": "Cohort & Funnel Analyzer",
+      "slug": "cohort-funnel-analyzer",
+      "category": "Data & Analytics",
+      "category_slug": "data-analytics",
+      "description": "Find where users drop off and which cohorts retain. Use to build retention curves and funnel breakdowns from event data and get a plain-language read on where to focus.",
+      "connectors": [
+        "Product analytics",
+        "BigQuery/warehouse",
+        "Google Sheets"
+      ],
+      "approval_required": false,
+      "suggested_routine": "On demand + monthly",
+      "path": "skills/data-analytics/cohort-funnel-analyzer/SKILL.md"
+    },
+    {
+      "name": "Dashboard Builder",
+      "slug": "dashboard-builder",
+      "category": "Data & Analytics",
+      "category_slug": "data-analytics",
+      "description": "Go from a question to a working dashboard. Use to design and build (or refresh) a dashboard from your data sources, with the right charts for each metric and sane defaults.",
+      "connectors": [
+        "BigQuery/warehouse",
+        "Google Sheets",
+        "BI tool",
+        "Looker/Metabase"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On demand",
+      "path": "skills/data-analytics/dashboard-builder/SKILL.md"
+    },
+    {
+      "name": "Metrics Report Builder",
+      "slug": "metrics-report-builder",
+      "category": "Data & Analytics",
+      "category_slug": "data-analytics",
+      "description": "Turn raw data into a recurring metrics report that explains movement, not just numbers. Use for a weekly/monthly KPI digest with drivers, anomalies, and plain-language takeaways.",
+      "connectors": [
+        "Google Sheets",
+        "BigQuery/warehouse",
+        "analytics tool",
+        "Slack"
+      ],
+      "approval_required": false,
+      "suggested_routine": "Weekly Monday 7:00 AM",
+      "path": "skills/data-analytics/metrics-report-builder/SKILL.md"
+    },
+    {
+      "name": "SQL Query Assistant",
+      "slug": "sql-query-assistant",
+      "category": "Data & Analytics",
+      "category_slug": "data-analytics",
+      "description": "Answer a data question in plain English with a correct, explained SQL query. Use to draft, run (read-only), and sanity-check queries against your warehouse — not to guess numbers.",
+      "connectors": [
+        "BigQuery/warehouse",
+        "dbt/schema docs",
+        "Google Sheets"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On demand",
+      "path": "skills/data-analytics/sql-query-assistant/SKILL.md"
+    },
+    {
+      "name": "Spreadsheet Cleaner",
+      "slug": "spreadsheet-cleaner",
+      "category": "Data & Analytics",
+      "category_slug": "data-analytics",
+      "description": "Turn a messy spreadsheet into clean, analysis-ready data. Use to fix malformed rows, inconsistent formats, duplicates, and stray headers — with a log of every change.",
+      "connectors": [
+        "Google Sheets",
+        "Excel",
+        "Google Drive"
+      ],
+      "approval_required": true,
+      "suggested_routine": "On demand",
+      "path": "skills/data-analytics/spreadsheet-cleaner/SKILL.md"
+    }
+  ]
+}

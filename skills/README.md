@@ -29,7 +29,9 @@ suggested_routine: <schedule or trigger>
 
 See [`_TEMPLATE.md`](_TEMPLATE.md) to add a new one.
 
-## Catalog — 56 skills across 9 categories
+## Catalog — 68 skills across 11 categories
+
+**From xAI's official *Ways to use Grok Bot* catalog (56):**
 
 | Category | # | Skills |
 |----------|---|--------|
@@ -42,6 +44,13 @@ See [`_TEMPLATE.md`](_TEMPLATE.md) to add a new one.
 | [Product](product/) | 5 | Beta Adoption Watcher · Call FAQ Miner · Docs Auditor · Feature Request Tracker · Product Feedback Analyst |
 | [Engineering](engineering/) | 5 | Bug Reproduction · Cloud Agent Orchestrator · Playtest Operator · Product Performance · Prototype Builder |
 | [Life & Leverage](life-leverage/) | 4 | Apartment Scout · Personal Site Builder · Subscription Cleaner · Travel Coordinator |
+
+**Original extensions — creative & research skills built for this directory (12):**
+
+| Category | # | Skills |
+|----------|---|--------|
+| [Creative & Content](creative-content/) | 8 | Thread Writer · Image Concept Generator · Meme Maker · Short Video Script Writer · Brand Voice Keeper · Naming & Tagline Brainstormer · Content Repurposer · Hook & Headline Tester |
+| [Research & Intelligence](research-intelligence/) | 4 | Deep Research Brief · Trend Radar · Fact Checker · Call & Video Summarizer |
 
 ## Conventions
 

@@ -5,7 +5,7 @@
 **A curated library of ready-to-run [Grok Bot](https://x.ai) skills** — each one a
 repeatable task recipe your Bot can run on demand or on a schedule.
 
-`68 skills` · `11 categories` · `one consistent format`
+`74 skills` · `12 categories` · `one consistent format`
 
 </div>
 
@@ -181,7 +181,7 @@ Each `SKILL.md` opens with front-matter — `name`, `category`, `description`,
 
 </details>
 
-### ✨ Original extensions — built for this library (12)
+### ✨ Original extensions — built for this library (18)
 
 <details open>
 <summary><b>🎨 Creative & Content</b> (8)</summary>
@@ -208,6 +208,20 @@ Each `SKILL.md` opens with front-matter — `name`, `category`, `description`,
 | [Trend Radar](skills/research-intelligence/trend-radar/SKILL.md) | A real-time digest of emerging trends on X and the web, with sources. |
 | [Fact Checker](skills/research-intelligence/fact-checker/SKILL.md) | Verifies claims against primary sources and returns a verdict with evidence. |
 | [Call & Video Summarizer](skills/research-intelligence/call-and-video-summarizer/SKILL.md) | Recording → TL;DR, decisions, owner-tagged actions, timestamped highlights. |
+
+</details>
+
+<details open>
+<summary><b>📊 Data & Analytics</b> (6)</summary>
+
+| Skill | What it does |
+|-------|--------------|
+| [Metrics Report Builder](skills/data-analytics/metrics-report-builder/SKILL.md) | A recurring KPI digest that explains movement — drivers, anomalies, takeaways. |
+| [Dashboard Builder](skills/data-analytics/dashboard-builder/SKILL.md) | Designs and builds a dashboard from your data, right chart per metric. |
+| [Spreadsheet Cleaner](skills/data-analytics/spreadsheet-cleaner/SKILL.md) | Turns a messy sheet into analysis-ready data with a full change log. |
+| [SQL Query Assistant](skills/data-analytics/sql-query-assistant/SKILL.md) | Plain-English question → a correct, explained, read-only SQL query. |
+| [Anomaly Watcher](skills/data-analytics/anomaly-watcher/SKILL.md) | Monitors key metrics and alerts — with likely cause — only when truly off. |
+| [Cohort & Funnel Analyzer](skills/data-analytics/cohort-funnel-analyzer/SKILL.md) | Retention curves and funnel drop-offs with a plain-language read. |
 
 </details>
 
@@ -239,4 +253,5 @@ down as a recipe, *then* automate it with a routine.
 | 9 | Life & Leverage | 4 |
 | 10 | Creative & Content | 8 |
 | 11 | Research & Intelligence | 4 |
-| | **Total** | **68** |
+| 12 | Data & Analytics | 6 |
+| | **Total** | **74** |

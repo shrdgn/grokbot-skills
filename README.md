@@ -27,16 +27,26 @@ Attach any skill to a **routine** to run it on a schedule (a 7 a.m. brief) or a 
 ## How it's organized
 
 ```
-skills/
-├── <category>/
-│   └── <skill-name>/
-│       └── SKILL.md      ← the recipe (YAML front-matter + body)
-├── _TEMPLATE.md          ← copy this to add a new skill
-└── README.md             ← the in-directory index
+.
+├── skills/
+│   ├── <category>/<skill-name>/SKILL.md   ← the recipe (front-matter + body)
+│   ├── _TEMPLATE.md                        ← copy this to add a new skill
+│   └── README.md                           ← the in-directory index
+├── packs/                                  ← pre-assembled role rosters
+├── catalog.json                            ← machine-readable index of every skill
+└── scripts/build_catalog.py                ← regenerates catalog.json from front-matter
 ```
 
 Each `SKILL.md` opens with front-matter — `name`, `category`, `description`,
 `connectors`, `approval_required`, `suggested_routine` — followed by the six-section body.
+
+## 🚀 Quick start — grab a pack
+
+Don't pick skills one at a time. A **[pack](packs/)** is a ready-made roster for a role:
+
+[Founder](packs/founder.md) · [Sales Rep](packs/sales-rep.md) · [Marketer](packs/marketer.md) · [Support & Success](packs/support-success.md) · [Recruiter](packs/recruiter.md) · [Ops & Finance](packs/ops-finance.md) · [Engineer](packs/engineer.md) · [Content Creator](packs/content-creator.md) · [Data Analyst](packs/data-analyst.md)
+
+Prefer to browse everything programmatically? See [`catalog.json`](catalog.json).
 
 ## Principles baked into every skill
 
@@ -227,6 +237,22 @@ Each `SKILL.md` opens with front-matter — `name`, `category`, `description`,
 
 ---
 
+## 🎯 Browse by outcome
+
+Prefer to think in jobs-to-be-done rather than org categories? Here's the same library
+mapped to outcomes:
+
+| Outcome | Where to look |
+|---------|---------------|
+| **Coding & shipping** | [Engineering](skills/engineering/) · [Product](skills/product/) |
+| **Inbox & calendar** | [General](skills/general/) (Inbox Manager, Executive Assistant) · Calendar Coordinator |
+| **Research & briefings** | [Research & Intelligence](skills/research-intelligence/) · Daily Briefing · Chief of Staff |
+| **Customer & sales** | [Sales](skills/sales/) · [Customer Success & Support](skills/customer-success-support/) |
+| **Finance & ops** | [Operations & Finance](skills/operations-finance/) · [Data & Analytics](skills/data-analytics/) |
+| **Content & publishing** | [Creative & Content](skills/creative-content/) · [Marketing](skills/marketing/) |
+| **Personal admin** | [Life & Leverage](skills/life-leverage/) |
+| **Teams & handoffs** | [Recruiting & People](skills/recruiting-people/) · Status Report Writer · Internal Communications Manager |
+
 ## 🧱 Add your own
 
 1. Copy [`skills/_TEMPLATE.md`](skills/_TEMPLATE.md) to
@@ -234,6 +260,7 @@ Each `SKILL.md` opens with front-matter — `name`, `category`, `description`,
 2. Fill in the front-matter and the six sections.
 3. Keep the principles above — approval-first, cite sources, quiet when clean, no
    invented data.
+4. Regenerate the index: `python3 scripts/build_catalog.py` (rewrites `catalog.json`).
 
 The best skills start as a task you did once by hand: do it, make it reliable, write it
 down as a recipe, *then* automate it with a routine.
